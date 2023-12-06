@@ -1,9 +1,9 @@
 import '../../styles/contact.css';
 
-import call from '../../assets/logos/call.png';
-import facebook from '../../assets/logos/facebook.png';
-import twitter from '../../assets/logos/twitter.png';
-import instagram from '../../assets/logos/instagram.png';
+import callp from '../../assets/logos/call.png';
+import facebookp from '../../assets/logos/facebook.png';
+import twitterp from '../../assets/logos/twitter.png';
+import instagramp from '../../assets/logos/instagram.png';
 import contactImage from '../../assets/images/contactImage.jpg';
 
 export default function contact() {
@@ -30,7 +30,7 @@ export default function contact() {
 
     const callIcon = document.createElement('img');
     callIcon.classList.add('iconDiv')
-    callIcon.src = call;
+    callIcon.src = callp;
 
     const callText = document.createElement('p');
     callText.textContent = "+91 12345 67890";
@@ -47,7 +47,7 @@ export default function contact() {
 
     const facebookIcon = document.createElement('img');
     facebookIcon.classList.add('iconDiv')
-    facebookIcon.src = facebook;
+    facebookIcon.src = facebookp;
 
     const facebookText = document.createElement('p');
     facebookText.textContent = "example@facebook.com";
@@ -65,7 +65,7 @@ export default function contact() {
 
     const twitterIcon = document.createElement('img');
     twitterIcon.classList.add('iconDiv')
-    twitterIcon.src = twitter;
+    twitterIcon.src = twitterp;
 
     const twitterText = document.createElement('p');
     twitterText.textContent = "example@twitter.com";
@@ -83,7 +83,7 @@ export default function contact() {
 
     const instagramIcon = document.createElement('img');
     instagramIcon.classList.add('iconDiv')
-    instagramIcon.src = instagram;
+    instagramIcon.src = instagramp;
 
     const instagramText = document.createElement('p');
     instagramText.textContent = "example@instagram.com";
