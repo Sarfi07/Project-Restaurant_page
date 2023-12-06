@@ -1,5 +1,11 @@
 import '../../styles/contact.css';
 
+import call from '../../assets/logos/call.png';
+import facebook from '../../assets/logos/facebook.png';
+import twitter from '../../assets/logos/twitter.png';
+import instagram from '../../assets/logos/instagram.png';
+import contactImage from '../../assets/images/contactImage.jpg';
+
 export default function contact() {
     const d = document.createElement('div');
     d.classList.add('contentDiv');
@@ -9,7 +15,7 @@ export default function contact() {
     const left = document.createElement('div');
     left.setAttribute('id', 'left');
     const image = document.createElement('img');
-    image.src = '../../assets/images/contactImage.jpg';
+    image.src = contactImage;
     image.setAttribute('id', 'contactImage')
     left.appendChild(image);
 
@@ -24,7 +30,7 @@ export default function contact() {
 
     const callIcon = document.createElement('img');
     callIcon.classList.add('iconDiv')
-    callIcon.src = '../../assets/logos/call.png';
+    callIcon.src = call;
 
     const callText = document.createElement('p');
     callText.textContent = "+91 12345 67890";
@@ -41,7 +47,7 @@ export default function contact() {
 
     const facebookIcon = document.createElement('img');
     facebookIcon.classList.add('iconDiv')
-    facebookIcon.src = '../../assets/logos/facebook.png';
+    facebookIcon.src = facebook;
 
     const facebookText = document.createElement('p');
     facebookText.textContent = "example@facebook.com";
@@ -59,7 +65,7 @@ export default function contact() {
 
     const twitterIcon = document.createElement('img');
     twitterIcon.classList.add('iconDiv')
-    twitterIcon.src = '../../assets/logos/twitter.png';
+    twitterIcon.src = twitter;
 
     const twitterText = document.createElement('p');
     twitterText.textContent = "example@twitter.com";
@@ -77,7 +83,7 @@ export default function contact() {
 
     const instagramIcon = document.createElement('img');
     instagramIcon.classList.add('iconDiv')
-    instagramIcon.src = '../../assets/logos/instagram.png';
+    instagramIcon.src = instagram;
 
     const instagramText = document.createElement('p');
     instagramText.textContent = "example@instagram.com";

@@ -17,10 +17,7 @@ function makeItemDiv(title, description, price) {
     titleDiv.textContent = title;
     descriptionDiv.textContent = description;
     priceDiv.textContent = `$@^  ${price}`;
-
-    // set dynamic path for images
-    const imagepath = `../../assets/images/${title}.png`;
-    itemImage.src = imagepath;
+    itemImage.src = i;
 
 
     parentDiv.appendChild(titleDiv);
