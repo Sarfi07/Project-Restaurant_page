@@ -1,0 +1,30 @@
+{
+  "name": "project-restaurant_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack serve --open --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarfi07/Project-Restaurant_page.git"
+  },
+  "author": "Sarfaroj Ansari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarfi07/Project-Restaurant_page/issues"
+  },
+  "homepage": "https://github.com/Sarfi07/Project-Restaurant_page#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "csv-loader": "^3.0.5",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

@@ -1,0 +1,47 @@
+#menuContent {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 1rem;
+    width: 60%;
+    margin: auto;
+
+    .item {
+        height: 10rem;
+        grid-row: span 1;
+        display: grid;
+        grid-template-columns: 4fr 1.5fr;
+        grid-template-rows: 2fr 2fr 1fr;
+        border-radius: var(--b-r);
+        border-bottom: 4px solid white;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        background-color: black;
+
+
+
+    .itemTitle {
+        font-size: 3rem;
+        grid-column: 1 / 2;
+        grid-row: 1  / 2;
+    }
+    .itemDescription {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    .itemPrice {
+        grid-row: 3 / 4;
+        font-size: 2rem;
+        margin-left: 2rem;
+        font-weight: bold;
+    }
+    .itemImg {
+        grid-column: 2 / 3;
+        grid-row: 1 / -1;
+        height: 10rem;
+        width: auto;
+        justify-self: center;
+    }
+}
+
+}

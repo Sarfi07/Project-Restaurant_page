@@ -1,0 +1,36 @@
+#tabs {
+    grid-row: 1 / 2;
+    border-radius: var(--b-r);
+    padding: 2rem;
+
+}
+#tabContent {
+    grid-row: 2 / 3;
+    height: 82vh;
+    border-radius: var(--b-r);
+}
+
+#tabBtns {
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: var(--b-r);
+    border-bottom: 4px solid white;
+    padding-bottom: 2rem;
+
+}
+#tabBtns > button {
+    height: 4rem;
+    width: 10rem;
+    font-size: 1.125rem;
+    border-radius: var(--b-r);
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.125);
+}
